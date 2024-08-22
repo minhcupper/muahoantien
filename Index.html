@@ -29,112 +29,151 @@
 </head>
 <body class="container">
     <header>
-        <img class="Logo" src="/LanDingPage/logo_text.png" alt="">
-        
+        <div class="row">
+            <div class="Logo col-4"> <img class="Logo" src="/LanDingPage/logo_text.png" alt=""></div>
+       
+        <div class="Navbar col-8">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Top 50</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Cash của ngày</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Đăng nhập</a>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn btn-outline-success" type="submit" style="margin-right:10px; background-color: #35699f;font-size: larger;border-radius: 29px;"><a href="#">Đăng ký</a></button>
+                          </li>
+                        </ul>
+                      
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit" style="color: rgb(251, 253, 255);">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+      
     </header>
     <div class="container Carousel">
-        <div  class="MainCarousel row">
-        <div style="padding:0px;padding-top: 15%;" id="carouselExampleSlidesOnly" class="carousel slide container col-1 " data-bs-ride="carousel">
-            <div class="carousel-inner "id="slide1">
-                <div class="carousel-item active">
-                    <img class=" w-100" src="LanDingPage/mht-ss-1.png" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class=" w-100" src="LanDingPage/mht-ss-2.png" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class=" w-100" src="LanDingPage/mht-ss-3.png" alt="Third slide">
-                </div>
-                <div class="carousel-item">
-                    <img class=" w-100" src="LanDingPage/mht-ss-4.png" alt="Four slide">
-                </div>
-                <div class="carousel-item">
-                    <img class=" w-100" src="LanDingPage/mht-ss-5.png" alt="Five slide">
-                </div>
-            </div>
-            </div>
-        <div style="padding:0px;padding-top: 13%;" id="carouselExampleSlidesOnly" class="carousel slide container col-2 " data-bs-ride="carousel">
-            <div class=" carousel-inner " id="slide2">
-                <div class="carousel-item active">
-                    <img class=" w-100" src="LanDingPage/mht-ss-2.png" alt="First slide">
-                </div>
-                <div class="carousel-item item">
-                    <img class=" w-100" src="LanDingPage/mht-ss-3.png" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class=" w-100" src="LanDingPage/mht-ss-4.png" alt="Third slide">
-                </div>
-                <div class="carousel-item">
-                    <img class=" w-100" src="LanDingPage/mht-ss-5.png" alt="Four slide">
-                </div>
-                <div class="carousel-item">
-                    <img class=" w-100" src="LanDingPage/mht-ss-1.png" alt="Four slide">
-                </div>
-            </div>
-        </div>
-            <div style="padding:0px;padding-top: 50px;" id="carouselExampleSlidesOnly" class="carousel slide container col-6 " data-bs-ride="carousel">
-                <div class="carousel-inner slide3">
+        <div class="MainCarousel row">
+            <!-- Carousel 1 -->
+            <div id="carousel1" class="carousel slide col-1" data-bs-ride="carousel" data-bs-interval="1800">
+                <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class=" w-100" src="LanDingPage/mht-ss-3.png" alt="First slide">
+                        <img class="w-100" src="LanDingPage/mht-ss-1.png" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class=" w-100" src="LanDingPage/mht-ss-4.png" alt="Second slide">
+                        <img class="w-100" src="LanDingPage/mht-ss-2.png" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class=" w-100" src="LanDingPage/mht-ss-5.png" alt="Third slide">
+                        <img class="w-100" src="LanDingPage/mht-ss-3.png" alt="Third slide">
                     </div>
                     <div class="carousel-item">
-                        <img class=" w-100" src="LanDingPage/mht-ss-1.png" alt="Four slide">
+                        <img class="w-100" src="LanDingPage/mht-ss-4.png" alt="Four slide">
                     </div>
                     <div class="carousel-item">
-                        <img class=" w-100" src="LanDingPage/mht-ss-2.png" alt="Four slide">
+                        <img class="w-100" src="LanDingPage/mht-ss-5.png" alt="Five slide">
                     </div>
                 </div>
-      
-    </div>
-    <div style="padding:0px;padding-top: 13%; id="carouselExampleSlidesOnly" class="carousel slide container col-2 " data-bs-ride="carousel">
-        <div class="carousel-inner slide4">
-            <div class="carousel-item active">
-                <img class=" w-100" src="LanDingPage/mht-ss-4.png" alt="First slide">
             </div>
-            <div class="carousel-item">
-                <img class=" w-100" src="LanDingPage/mht-ss-5.png" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class=" w-100" src="LanDingPage/mht-ss-1.png" alt="Four slide">
-            </div>
-            <div class="carousel-item">
-                <img class=" w-100" src="LanDingPage/mht-ss-2.png" alt="Four slide">
-            </div>
-            <div class="carousel-item">
-                <img class=" w-100" src="LanDingPage/mht-ss-3.png" alt="Four slide">
-            </div>
-        </div>
-    </div>
-    <div style="padding:0px;padding-top: 15%;" id="carouselExampleSlidesOnly" class="carousel slide container col-1 " data-bs-ride="carousel">
-        <div class="carousel-inner "id="slide1">
-            <div class="carousel-item active">
-                <img class=" w-100" src="LanDingPage/mht-ss-5.png" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class=" w-100" src="LanDingPage/mht-ss-1.png" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class=" w-100" src="LanDingPage/mht-ss-2.png" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-                <img class=" w-100" src="LanDingPage/mht-ss-3.png" alt="Four slide">
-            </div>
-            <div class="carousel-item">
-                <img class=" w-100" src="LanDingPage/mht-ss-4.png" alt="Five slide">
-            </div>
-        </div>
-        </div>
-        </div>
     
-
-
-</div>
+            <!-- Carousel 2 -->
+            <div id="carousel2" class="carousel slide col-2" data-bs-ride="carousel" data-bs-interval="1800">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="LanDingPage/mht-ss-2.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-3.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-4.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-5.png" alt="Four slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-1.png" alt="Five slide">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Carousel 3 -->
+            <div id="carousel3" class="carousel slide col-6" data-bs-ride="carousel" data-bs-interval="1750" style="padding-top: 50px;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="LanDingPage/mht-ss-3.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-4.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-5.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-1.png" alt="Four slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-2.png" alt="Five slide">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Carousel 4 -->
+            <div id="carousel4" class="carousel slide col-2" data-bs-ride="carousel" data-bs-interval="1800" style="padding-top: 13%; height: 80%;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="LanDingPage/mht-ss-4.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-5.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-1.png" alt="Four slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-2.png" alt="Five slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-3.png" alt="Sixth slide">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Carousel 5 -->
+            <div id="carousel5" class="carousel slide col-1" data-bs-ride="carousel" data-bs-interval="1800" style="padding-top: 18%; height: 60%;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="LanDingPage/mht-ss-5.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-1.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-2.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-3.png" alt="Four slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="LanDingPage/mht-ss-4.png" alt="Five slide">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <nav >
         <div class="Comment container">
               <h2 ><b>Mobile App Landing Page</b></h2>
@@ -181,83 +220,104 @@
             <h5>Chà nó khá đơn giản !</h5>
           </div>
           <div class="row main_row">
-            <div class="col-5 Comment_main">
-                <h4><b>Mở Picody và đăng nhập vào tài khoản của bạn </b></h4>
-                <h5>Nếu bạn chưa có tài khoản hãy nhấn đăng ký</h5>
+            <div  class="col-6 Comment_main">
+                <h4 style="margin-right: 16%;"><b>Mở Picody và đăng nhập vào tài khoản của bạn </b></h4>
+                <h5 style="margin-right: 16%;">Nếu bạn chưa có tài khoản hãy nhấn đăng ký</h5>
               </div>
-              <div class="icon_main col-2">
+              <div class="icon_main col-1">
                 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
               </div>
-              <div class="img_main col-4">
-                <img src="/LanDingPage/1.png" alt="">
+              <div class="img_main_right col-5">
+                <img style="margin-left: 10%;" src="/LanDingPage/img1.svg" alt="">
               </div>
           </div>
           <div class="row main_row">
-              <div class="img_main col-6">
-                <img src="/LanDingPage/2.png" alt="">
+              <div class="img_main_left col-6">
+                <img style="width: 75%;" src="/LanDingPage/img2.svg" alt="">
               </div>
-              <div class="icon_main col-2">
+              <div class="icon_main col-1">
                 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
               </div>
               
-              <div class="col-4 Comment_main">
+              <div class="col-5 Comment_main">
                 <h3 ><b>Chọn một cửa hàng và nhấp vào bất kỳ ưa đãi nào</b></h3>
                 <h5>Khám phá các cửa hàng để tìm ưa đãi và mã giảm giá nhớ tắt adblock nhé </h5>
               </div>
           </div>
           <div class="row main_row">
-            <div class="col-5 Comment_main">
-                <h4><b>Mua sắm  </b></h4>
-                <h5>Thêm sản phẩm vào giỏ hàng trống. Nếu bạn có mã giảm giá hãy sử dụng nó </h5>
+            <div class="col-6 Comment_main">
+                <h4 style="margin-right: 17%;"><b>Mua sắm  </b></h4>
+                <h5 style="margin-right: 17%;">Thêm sản phẩm vào giỏ hàng trống. Nếu bạn có mã giảm giá hãy sử dụng nó </h5>
               </div>
-              <div class="icon_main col-2">
+              <div class="icon_main col-1">
                 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
               </div>
-              <div class="img_main col-4">
-                <img src="/LanDingPage/3.png" alt="">
+              <div  class="img_main_right col-5">
+                <img style="margin-left: 10%;" src="/LanDingPage/img3.svg" alt="">
               </div>
           </div>
 
           <div class="row main_row">
-            <div class="img_main col-6">
-              <img src="/LanDingPage/4.png" alt="">
+            <div  class="img_Main col-6">
+              <img style="width: 75%;" src="/LanDingPage/img4.svg" alt="">
             </div>
-            <div class="icon_main col-2">
+            <div class="img_main_left col-1">
               <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
             </div>  
-            <div class="col-4 Comment_main">
+            <div class="col-5 Comment_main">
               <h3 ><b>Đợi tiền mặt </b></h3>
               <h5>Hoàn tiền sẽ xuất hiện trong tài khoản Picody của bạn sau khi đơn hàng được xác nhận</h5>
             </div>
         </div>
         <div class="Buttondownload ">
-            <button style="background-color: rgb(40, 158, 40); class="Chrome col-2 btn"> 
+            <button style="background-color: rgb(40, 158, 40);" class="Chrome col-2 btn"> 
                 <i class="fa-brands fa-chrome" style="color: #c6c83e;"></i>
                 <a href="#"> Thêm vào Chrome </a>  
            </button>
       </div>
-
+      <div class="row main_row" style="margin-top: 150px; height: 500px;margin-bottom: 100px;background-image: url(../LanDingPage/backconten.jpg);">
+        <div  class="img_Main col-5">
+          <img style="width: 150%;height: 100%;padding-left: 0;" src="/LanDingPage/ContenSale.png" alt="">
+        </div>
+        <div class="col-2"></div>
+        <div class="col-5 Comment_main">
+          <h2><b>Giới thiệu MHT </b></h2>
+          <br>
+          <h4>Tiện ích mua hoàn tiền giúp bạn tiết kiệm một cách tự động và đơn giản khi mua sắm trực tuyến. Khi mua hàng qua các đối tác liên kết như Shopee, Lazada, và Tiki, tiện ích sẽ tự động hoàn lại một phần hoặc toàn bộ số tiền đã chi tiêu dưới dạng hoàn tiền. Tham gia để mua sắm hoàn tiền ngay bây giờ!</h4>
+        </div>
+    </div>
 
       <div class="Comment container ">
         <h2 ><b>Hoàn tiền khuyến mãi và ưa đãi - công cụ tiết kiệm thực sự hiệu quả </b></h2>
+        <br>
         <h5>Những người này đã chứng minh điều đó : </h5>
+        
       </div>
-      <div class="container" style=" padding-top: 60px;padding-bottom: 20px;" >
-        <div id="carouselContent" class="carousel slide" data-ride="carousel" >
-            <div class="carousel-inner" role="listbox" style="justify-content: center; left: 230px;">
-                <div class="carousel-item active text-center p-4 Comment_main" style="background-color: aliceblue;">
-                    <h3><b>Minh</b></h3>
-                    <img style="width: 60px;height: 30px;" src="LanDingPage/star.jpg" alt="">
+      <div class="container" style=" padding-top: 50px; width: 100%;height: 400px;justify-content: center;" >
+        <div id="carouselContent" class="carousel slide" data-ride="carousel"  >
+            <div class="carousel-inner" role="listbox" style="justify-content: center;left: 320px;">
+                <div class="carousel-item active text-center p-4 Comment_main" style="background-color: aliceblue;height: 300px;width: 1000px;">
+                    <h3><b>Văn Minh</b></h3>
+                    <br>
+                    <img style="width: 60px;height: 30px;box-shadow: none;border: none" src="LanDingPage/Star.png" alt="">
+                    <br>
+                    <br>
                     <h5>Ứng dụng phiếu giảm giá này thật tuyệt vời ! Việc tìm kiếm mã giảm giá chưa bao giờ đơn giản đến thế</h5>
                 </div>
-                <div class="carousel-item text-center p-4 Comment_main" style="background-color: aliceblue;">
-                    <h3><b>Bắc</b></h3>
-                    <img style="width: 60px;height: 30px;" src="LanDingPage/star.jpg" alt="">
+                <div class="carousel-item text-center p-4 Comment_main" style="background-color: aliceblue;height: 300px;width: 1000px;">
+                    <h3><b>Xuân Bắc</b></h3>
+                   <br>
+                    <img style="width: 60px;height: 30px;box-shadow: none;border: none" src="LanDingPage/Star.png" alt="">
+                   <br>
+                   <br>
                     <h5>Nó hoạt động thật tuyệt vời tôi tiết kiệm được nhiều tiền nhờ ứng dụng này </h5>
                 </div>
-                <div class="carousel-item text-center p-4 Comment_main" style="background-color: aliceblue;">
-                    <h3><b>Nam</b></h3>
-                    <img style="width: 60px;height: 30px;" src="LanDingPage/star.jpg" alt="">
+                <div class="carousel-item text-center p-4 Comment_main" style="background-color: aliceblue;height: 300px;width: 1000px;">
+                    <h3><b>Nam Trần</b></h3>
+                    <br>
+                    <img style="width: 60px;height: 30px;box-shadow: none;border: none" src="LanDingPage/Star.png" alt="">
+                    <br>
+                    <br>
                     <h5>Waoo Picodi có cả một bộ sưa tập mã giảm giá và khuyến mãi khổng lồ từ đồ ăn, quần áo, mĩ phẩm tôi tiết kiệm được rất nhiều tiền rất tiện lợi phù hợp với thế hệ trẻ thích mua sắm  </h5>
                 </div>
             </div>
@@ -271,6 +331,7 @@
             </a>
         </div>
     </div>
+    
     <div class="Buttondownload ">
         <button style="background-color: rgb(40, 158, 40);" class="Chrome col-2 btn"> 
             <i class="fa-brands fa-chrome" style="color: #c6c83e;"></i>
@@ -281,17 +342,36 @@
     <footer>
         <div class="Maininfo">
         <div class="row info">
-         <div class="col-4" style="display: flex;"><i class="fa-solid fa-location-dot"></i> <h6>04 Phan Chu Trinh - Bình Thạnh - HCM</h6> </div>
-         <div class="col-3">MẠNG XÃ HỘI </div>
-         <div class="col-4" style="display: flex;"><i class="fa-solid fa-envelope"> </i><h6>muahoantien@gmail.com</h6></div>
+         <div class="col-3" style="display: flex;"><i style="width: 40px;height: 20px;" class="fa-solid fa-location-dot"></i> <h5>04 Phan Chu Trinh - Bình Thạnh - HCM</h5> </div>
+         <div class="col-3"><h5><b>MẠNG XÃ HỘI</b></h5> </div>
+         <div class="col-3" style="display: flex;"><i class="fa-solid fa-envelope" style="width: 40px;height: 20px;"> </i><h5>muahoantien@gmail.com</h5></div>
         </div>
         <div class="row info">
             <div class="col-4"> </div>
-            <div class="col-3"style="display: flex;"> <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-tiktok"></i> <i class="fa-brands fa-youtube"></i> </div>
+            <div class="row col-3"style="display: flex;">
+                <div class="col-10" style="display: flex;">
+                    <div><i class="fa-brands fa-facebook " style="color: #0129b6;"></i></div>
+                    <div style="margin-left: 10px;margin-right: 10px;"><i class="fa-brands fa-tiktok"></i></div>
+                    <div><i class="fa-brands fa-youtube" style="color: #d02c2c;"></i></div> 
+                </div>
+           
+             </div>
             <div class="col-4"></div>
            </div>
+           <div class="row info" style="background-image: none;">
+            <div class="col-12" >
+                <img style="width: 150px;height: 70px;" src="./LanDingPage/bct.png" alt="">
+                <img style="width: 150px;height: 70px;" src="./LanDingPage/dmca.png" alt="">
+            </div>
+          
+            
         </div>
     </footer>
+    <div class="row Inbox">
+        <div class="col-4">
+       <h6>© 2024 MuaHoanTien.Vn - Chính sách hoạt động</h6>
+       </div>
+    </div>
   
 </body>
 
