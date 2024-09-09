@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const allButtons = [swapButton, revertButton];
 
-    // Hàm vô hiệu hóa tất cả các nút
+    // Hàm vô hiệu hóa tất cả các button
     function disableAllButtons() {
         allButtons.forEach(button => {
             if (button) {
