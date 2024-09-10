@@ -232,7 +232,8 @@ main .icon_main .Star {
 }
 
 main .icon_main .td {
-    height: 100%;
+   width:100%;
+    height: 90%;
     margin-right: 5%;
 }
 
