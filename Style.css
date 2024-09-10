@@ -373,7 +373,7 @@ footer{
 width: 100px; height: 50px; box-shadow: none; border: none;
 }
 .Main-content .carousel{
-    min-width: 800%;
+    min-width: 80%;
     height: 100%;
 }
 .Conten .carousel-inner {
