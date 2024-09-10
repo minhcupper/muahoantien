@@ -15,6 +15,10 @@ header{
     max-height: 80px;
     justify-items: center;
     background-image: url(./LanDingPage/headerimg.png);
+    background-size: cover; /* Đảm bảo ảnh bao phủ toàn bộ */
+    background-position: center; /* Đặt ảnh ở trung tâm */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    background-attachment: fixed; /* Giữ ảnh cố định khi cuộn */
     
 }
 .header_main{
@@ -25,6 +29,10 @@ header{
    max-width:  100%;
    max-height: 550px;
     background-image: url(./LanDingPage/headerimg.png);
+    background-size: cover; /* Đảm bảo ảnh bao phủ toàn bộ */
+    background-position: center; /* Đặt ảnh ở trung tâm */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    background-attachment: fixed; /* Giữ ảnh cố định khi cuộn */
     display: flex; /* Sử dụng flexbox để xếp các carousel theo hàng ngang */
     justify-content: center; /* Giãn cách đều các carousel */
     align-items: center; /* Căn giữa các carousel theo chiều dọc */
@@ -374,15 +382,15 @@ width: 100px; height: 50px; box-shadow: none; border: none;
 }
 .Main-content .carousel{
     min-width: 100%;
-    height: 100%;
+    height: 80%;
 }
 .Conten .carousel-inner {
 width:  60%;
 height: 400px;
-margin-bottom: 50%;
+
 margin-left: 20%;
 }
-.Conten .carousel-inner .carousel-item{width: 100%;height: 100%;
+.Conten .carousel-inner .carousel-item{width: 100%;height: 100%;margin-top: 30%;
 }
 .Buttondownload button{background-color: rgb(40, 158, 40);}
 
