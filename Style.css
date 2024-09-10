@@ -304,9 +304,9 @@ header .Comment_head {
 
 .img_main .img_main_left {
     padding-top: 40%;
-    width: 320px;
+    width: 360px;
     height: 400px;
-    margin-left:8% ;
+    margin-left:5% ;
 }
 .carousel-item.active,
 .carousel-item-next,
