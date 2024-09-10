@@ -303,7 +303,7 @@ header .Comment_head {
 
 .img_main .img_main_left {
     padding-top: 40%;
-    width: 30px;
+    width: 370px;
     height: 400px;
     margin-left:4% ;
 }
@@ -610,7 +610,7 @@ img {
         margin: 10px 0;
     }
 }
-
+@media (max-width: 1024px) {}
 @media (min-width: 769px) and (max-width: 1024px) {
     main {
         padding: 10px;
@@ -683,7 +683,4 @@ img {
         margin: 5px 10px;
     }
 }
-  .Carousel .carousel-item img {
-    width: 100%;
-    height: auto;
-  }
+  
