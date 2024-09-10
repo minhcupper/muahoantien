@@ -374,12 +374,12 @@ width: 100px; height: 50px; box-shadow: none; border: none;
 }
 .Main-content .carousel{
     min-width: 100%;
-    height: 80%;
+    height: 100%;
 }
 .Conten .carousel-inner {
 width:  60%;
 height: 400px;
-margin-top: 50%;
+margin-bottom: 50%;
 margin-left: 20%;
 }
 .Conten .carousel-inner .carousel-item{width: 100%;height: 100%;
