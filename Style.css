@@ -298,15 +298,15 @@ header .Comment_head {
 .img_main .img_main_right {
     padding-top: 40%;
     margin-left: 2%;
-    width: 380px;
+    width: 400px;
     height: 380px;
 }
 
 .img_main .img_main_left {
     padding-top: 40%;
-    width: 300px;
+    width: 320px;
     height: 400px;
-    min-width: 90px;
+    margin-left:5% ;
 }
 .carousel-item.active,
 .carousel-item-next,
