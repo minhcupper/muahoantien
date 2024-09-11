@@ -185,8 +185,8 @@ margin-bottom: 1%;
 }
 .NavbarInformation{
     
-    height: fit-content;
-    max-width: 100%;
+   
+    width: 100%;
     justify-content: center;
     padding-top: 60px;
     padding-bottom: 30px;
@@ -310,7 +310,7 @@ header .Comment_head {
 
 .img_main .img_main_left {
     padding-top: 40%;
-    width: 370px;
+    width: 340px;
     height: 400px;
     margin-left:4% ;
 }
