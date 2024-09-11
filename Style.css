@@ -210,8 +210,7 @@ nav{
 /* Comment Section */
 main {
     max-width: 100%;
-    min-width: 80%;
-    min-height: 30%;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
